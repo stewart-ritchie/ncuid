@@ -6,11 +6,13 @@
     <Copyright>Copyright 2014 © Clément Bourgeois</Copyright>
     <Company>Moonpyk</Company>
     <Product>Moonpyk.NCuid</Product>
-    <Authors />
+    <Authors>Clément Bourgeois</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0</Version>
-    <Description>Forked to target multiple framworks netcoreapp2.0;net461</Description>
+    <Version>1.0.1</Version>
+    <Description>Collision-resistant ids optimized for horizontal scaling and sequential lookup performance.
+Forked to target multiple frameworks netcoreapp2.0;net461.</Description>
     <RepositoryUrl>https://github.com/stewart-ritchie/ncuid</RepositoryUrl>
+    <PackageTags>cuid</PackageTags>
   </PropertyGroup>
 
 </Project>
