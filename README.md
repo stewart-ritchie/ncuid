@@ -1,8 +1,11 @@
-ncuid [![Build status](https://ci.appveyor.com/api/projects/status/s1e5w82tc8k6d9cg)](https://ci.appveyor.com/project/moonpyk/ncuid)
-=====
+NCuid.NetCore
+=============
 
 Collision-resistant ids for .NET (port of https://github.com/dilvie/cuid)
 
+Forked from https://github.com/moonpyk/ncuid in order to add explicit support for netcore2.0
+
+
 ## Nuget availability
 
-    PM> Install-Package NCuid
+    PM> Install-Package NCuid.NetCore
