@@ -16,8 +16,4 @@
     <ProjectReference Include="..\NCuid\NCuid.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
-
 </Project>
