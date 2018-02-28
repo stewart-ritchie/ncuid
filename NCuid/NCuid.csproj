@@ -8,11 +8,17 @@
     <Product>Moonpyk.NCuid</Product>
     <Authors>Clément Bourgeois</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Description>Collision-resistant ids optimized for horizontal scaling and sequential lookup performance.
 Forked to target multiple frameworks netcoreapp2.0;net461.</Description>
     <RepositoryUrl>https://github.com/stewart-ritchie/ncuid</RepositoryUrl>
     <PackageTags>cuid</PackageTags>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp2.0|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE;NETCOREAPP2_0</DefineConstants>
+  </PropertyGroup>
+
+  <Import Project="..\NCuid.Shared\NCuid.Shared.projitems" Label="Shared" />
 
 </Project>

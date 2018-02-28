@@ -16,4 +16,6 @@
     <ProjectReference Include="..\NCuid\NCuid.csproj" />
   </ItemGroup>
 
+  <Import Project="..\NCuid.Shared\NCuid.Shared.projitems" Label="Shared" />
+
 </Project>

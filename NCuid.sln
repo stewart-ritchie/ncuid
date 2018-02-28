@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCuid.Tests", "NCuid.Tests\NCuid.Tests.csproj", "{1CD3A779-B529-497C-A186-F0637E316D2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCuid.Tests", "NCuid.Tests\NCuid.Tests.csproj", "{1CD3A779-B529-497C-A186-F0637E316D2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCuid", "NCuid\NCuid.csproj", "{C9033C45-5859-4420-8D44-15A43BBC53EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCuid", "NCuid\NCuid.csproj", "{C9033C45-5859-4420-8D44-15A43BBC53EA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NCuid.Shared", "NCuid.Shared\NCuid.Shared.shproj", "{FE90C219-C629-4DBD-9FC7-DCF95F3A1146}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		NCuid.Shared\NCuid.Shared.projitems*{fe90c219-c629-4dbd-9fc7-dcf95f3a1146}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release.Public|Any CPU = Release.Public|Any CPU
